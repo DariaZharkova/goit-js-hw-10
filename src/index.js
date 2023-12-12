@@ -27,8 +27,6 @@ fetchBreeds()
     new SlimSelect({
       select: selectBreed,
     });
-
-    selectBreed.style.maxWidth = '400px';
   })
   .catch(error => onError(error));
 
